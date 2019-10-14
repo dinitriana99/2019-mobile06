@@ -32,7 +32,7 @@ public class MenuFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_menu, container, false);
-        //sisipkan register event click nanti disini
+
         Button brocaButton = view.findViewById(R.id.button_broca);
         Button bmiButton = view.findViewById(R.id.button_bmi);
 
@@ -44,7 +44,6 @@ public class MenuFragment extends Fragment {
                 }
             }
         });
-
         bmiButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
